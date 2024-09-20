@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #041e57e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  position: relative;
+  max-width: 500px;
+  margin: 250px auto;
+  padding: 20px;
+
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+
+  /*filter: blur(10px);*/
+  background: linear-gradient(#051b44, #051b44, #0c91c5, #c2e6f1) 200% 100%;
+}
+
+h1 {
+  color: #f4f5f3;
+  padding: 10px;
+}
+
+input[type="text"] {
+  padding: 10px 0px 10px 20px;
+  font-size: 25px;
+  width: 70%;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 29px;
+  background-color: #39813c;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contenedor button:hover {
+  background: #0f6397e1;
+}
+
+#datosClima {
+  margin-top: 20px;
+  font-size: 23px;
+  color: #010c13e1;
+  padding: 10px;
+}

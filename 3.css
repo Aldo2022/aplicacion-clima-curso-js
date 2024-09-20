@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(5, 5, 5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 25%;
+  height: 25% auto;
+  margin: 50px 0;
+  padding: 10px 0;
+  background: linear-gradient(#051b44, #051b44, #0c91c5, #c2e6f1) 200% 100%;
+}
+
+h1 {
+  margin: 0 0 0 110px;
+  padding: 10px;
+  color: white;
+}
+.container input {
+  margin: 0 0 0 50px;
+  font-size: 20px;
+  padding: 8px 15px;
+  outline: none;
+}
+
+.container button {
+  font-size: 23px;
+  padding: 6px 6px;
+  outline: none;
+  color: white;
+  background-color: rgb(11, 155, 54);
+}
+
+.datosClima {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(217, 223, 231);
+}
+#ciudad {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0 10px;
+  margin: 10px auto;
+}
+
+span {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 50px;
+  padding: 10px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon.icono,
+.icon.temp,
+.icon.datos {
+  width: 400px;
+  height: 200px;
+}
+
+#temperatura {
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.datos {
+  margin: 0 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.datos p {
+  margin: 8px auto;
+}
